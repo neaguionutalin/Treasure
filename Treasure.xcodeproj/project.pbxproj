@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFF9BE0B1C1AF4BA006D472E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE0A1C1AF4BA006D472E /* AppDelegate.swift */; };
+		DFF9BE0D1C1AF4BA006D472E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE0C1C1AF4BA006D472E /* ViewController.swift */; };
+		DFF9BE101C1AF4BA006D472E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF9BE0E1C1AF4BA006D472E /* Main.storyboard */; };
+		DFF9BE131C1AF4BA006D472E /* Treasure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE111C1AF4BA006D472E /* Treasure.xcdatamodeld */; };
+		DFF9BE151C1AF4BA006D472E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF9BE141C1AF4BA006D472E /* Assets.xcassets */; };
+		DFF9BE181C1AF4BA006D472E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF9BE161C1AF4BA006D472E /* LaunchScreen.storyboard */; };
+		DFF9BE231C1AF4BA006D472E /* TreasureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE221C1AF4BA006D472E /* TreasureTests.swift */; };
+		DFF9BE2E1C1AF4BA006D472E /* TreasureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE2D1C1AF4BA006D472E /* TreasureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFF9BE1F1C1AF4BA006D472E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF9BDFF1C1AF4BA006D472E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF9BE061C1AF4BA006D472E;
+			remoteInfo = Treasure;
+		};
+		DFF9BE2A1C1AF4BA006D472E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF9BDFF1C1AF4BA006D472E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF9BE061C1AF4BA006D472E;
+			remoteInfo = Treasure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFF9BE071C1AF4BA006D472E /* Treasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF9BE0A1C1AF4BA006D472E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFF9BE0C1C1AF4BA006D472E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFF9BE0F1C1AF4BA006D472E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFF9BE121C1AF4BA006D472E /* Treasure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Treasure.xcdatamodel; sourceTree = "<group>"; };
+		DFF9BE141C1AF4BA006D472E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFF9BE171C1AF4BA006D472E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFF9BE191C1AF4BA006D472E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF9BE1E1C1AF4BA006D472E /* TreasureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreasureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF9BE221C1AF4BA006D472E /* TreasureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureTests.swift; sourceTree = "<group>"; };
+		DFF9BE241C1AF4BA006D472E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF9BE291C1AF4BA006D472E /* TreasureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreasureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF9BE2D1C1AF4BA006D472E /* TreasureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureUITests.swift; sourceTree = "<group>"; };
+		DFF9BE2F1C1AF4BA006D472E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF9BE041C1AF4BA006D472E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF9BE1B1C1AF4BA006D472E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF9BE261C1AF4BA006D472E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFF9BDFE1C1AF4BA006D472E = {
+			isa = PBXGroup;
+			children = (
+				DFF9BE091C1AF4BA006D472E /* Treasure */,
+				DFF9BE211C1AF4BA006D472E /* TreasureTests */,
+				DFF9BE2C1C1AF4BA006D472E /* TreasureUITests */,
+				DFF9BE081C1AF4BA006D472E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF9BE081C1AF4BA006D472E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF9BE071C1AF4BA006D472E /* Treasure.app */,
+				DFF9BE1E1C1AF4BA006D472E /* TreasureTests.xctest */,
+				DFF9BE291C1AF4BA006D472E /* TreasureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF9BE091C1AF4BA006D472E /* Treasure */ = {
+			isa = PBXGroup;
+			children = (
+				DFF9BE0A1C1AF4BA006D472E /* AppDelegate.swift */,
+				DFF9BE0C1C1AF4BA006D472E /* ViewController.swift */,
+				DFF9BE0E1C1AF4BA006D472E /* Main.storyboard */,
+				DFF9BE141C1AF4BA006D472E /* Assets.xcassets */,
+				DFF9BE161C1AF4BA006D472E /* LaunchScreen.storyboard */,
+				DFF9BE191C1AF4BA006D472E /* Info.plist */,
+				DFF9BE111C1AF4BA006D472E /* Treasure.xcdatamodeld */,
+			);
+			path = Treasure;
+			sourceTree = "<group>";
+		};
+		DFF9BE211C1AF4BA006D472E /* TreasureTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF9BE221C1AF4BA006D472E /* TreasureTests.swift */,
+				DFF9BE241C1AF4BA006D472E /* Info.plist */,
+			);
+			path = TreasureTests;
+			sourceTree = "<group>";
+		};
+		DFF9BE2C1C1AF4BA006D472E /* TreasureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF9BE2D1C1AF4BA006D472E /* TreasureUITests.swift */,
+				DFF9BE2F1C1AF4BA006D472E /* Info.plist */,
+			);
+			path = TreasureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF9BE061C1AF4BA006D472E /* Treasure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF9BE321C1AF4BA006D472E /* Build configuration list for PBXNativeTarget "Treasure" */;
+			buildPhases = (
+				DFF9BE031C1AF4BA006D472E /* Sources */,
+				DFF9BE041C1AF4BA006D472E /* Frameworks */,
+				DFF9BE051C1AF4BA006D472E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Treasure;
+			productName = Treasure;
+			productReference = DFF9BE071C1AF4BA006D472E /* Treasure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFF9BE1D1C1AF4BA006D472E /* TreasureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF9BE351C1AF4BA006D472E /* Build configuration list for PBXNativeTarget "TreasureTests" */;
+			buildPhases = (
+				DFF9BE1A1C1AF4BA006D472E /* Sources */,
+				DFF9BE1B1C1AF4BA006D472E /* Frameworks */,
+				DFF9BE1C1C1AF4BA006D472E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF9BE201C1AF4BA006D472E /* PBXTargetDependency */,
+			);
+			name = TreasureTests;
+			productName = TreasureTests;
+			productReference = DFF9BE1E1C1AF4BA006D472E /* TreasureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFF9BE281C1AF4BA006D472E /* TreasureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF9BE381C1AF4BA006D472E /* Build configuration list for PBXNativeTarget "TreasureUITests" */;
+			buildPhases = (
+				DFF9BE251C1AF4BA006D472E /* Sources */,
+				DFF9BE261C1AF4BA006D472E /* Frameworks */,
+				DFF9BE271C1AF4BA006D472E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF9BE2B1C1AF4BA006D472E /* PBXTargetDependency */,
+			);
+			name = TreasureUITests;
+			productName = TreasureUITests;
+			productReference = DFF9BE291C1AF4BA006D472E /* TreasureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF9BDFF1C1AF4BA006D472E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ionut Neagu";
+				TargetAttributes = {
+					DFF9BE061C1AF4BA006D472E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DFF9BE1D1C1AF4BA006D472E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DFF9BE061C1AF4BA006D472E;
+					};
+					DFF9BE281C1AF4BA006D472E = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DFF9BE061C1AF4BA006D472E;
+					};
+				};
+			};
+			buildConfigurationList = DFF9BE021C1AF4BA006D472E /* Build configuration list for PBXProject "Treasure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFF9BDFE1C1AF4BA006D472E;
+			productRefGroup = DFF9BE081C1AF4BA006D472E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF9BE061C1AF4BA006D472E /* Treasure */,
+				DFF9BE1D1C1AF4BA006D472E /* TreasureTests */,
+				DFF9BE281C1AF4BA006D472E /* TreasureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFF9BE051C1AF4BA006D472E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF9BE181C1AF4BA006D472E /* LaunchScreen.storyboard in Resources */,
+				DFF9BE151C1AF4BA006D472E /* Assets.xcassets in Resources */,
+				DFF9BE101C1AF4BA006D472E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF9BE1C1C1AF4BA006D472E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF9BE271C1AF4BA006D472E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF9BE031C1AF4BA006D472E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF9BE0D1C1AF4BA006D472E /* ViewController.swift in Sources */,
+				DFF9BE0B1C1AF4BA006D472E /* AppDelegate.swift in Sources */,
+				DFF9BE131C1AF4BA006D472E /* Treasure.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF9BE1A1C1AF4BA006D472E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF9BE231C1AF4BA006D472E /* TreasureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF9BE251C1AF4BA006D472E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF9BE2E1C1AF4BA006D472E /* TreasureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFF9BE201C1AF4BA006D472E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF9BE061C1AF4BA006D472E /* Treasure */;
+			targetProxy = DFF9BE1F1C1AF4BA006D472E /* PBXContainerItemProxy */;
+		};
+		DFF9BE2B1C1AF4BA006D472E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF9BE061C1AF4BA006D472E /* Treasure */;
+			targetProxy = DFF9BE2A1C1AF4BA006D472E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFF9BE0E1C1AF4BA006D472E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF9BE0F1C1AF4BA006D472E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFF9BE161C1AF4BA006D472E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF9BE171C1AF4BA006D472E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFF9BE301C1AF4BA006D472E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFF9BE311C1AF4BA006D472E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF9BE331C1AF4BA006D472E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Treasure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cov-UNi.Treasure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFF9BE341C1AF4BA006D472E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Treasure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cov-UNi.Treasure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFF9BE361C1AF4BA006D472E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TreasureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cov-UNi.TreasureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treasure.app/Treasure";
+			};
+			name = Debug;
+		};
+		DFF9BE371C1AF4BA006D472E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TreasureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cov-UNi.TreasureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treasure.app/Treasure";
+			};
+			name = Release;
+		};
+		DFF9BE391C1AF4BA006D472E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TreasureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cov-UNi.TreasureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Treasure;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DFF9BE3A1C1AF4BA006D472E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TreasureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cov-UNi.TreasureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Treasure;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF9BE021C1AF4BA006D472E /* Build configuration list for PBXProject "Treasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF9BE301C1AF4BA006D472E /* Debug */,
+				DFF9BE311C1AF4BA006D472E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF9BE321C1AF4BA006D472E /* Build configuration list for PBXNativeTarget "Treasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF9BE331C1AF4BA006D472E /* Debug */,
+				DFF9BE341C1AF4BA006D472E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFF9BE351C1AF4BA006D472E /* Build configuration list for PBXNativeTarget "TreasureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF9BE361C1AF4BA006D472E /* Debug */,
+				DFF9BE371C1AF4BA006D472E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFF9BE381C1AF4BA006D472E /* Build configuration list for PBXNativeTarget "TreasureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF9BE391C1AF4BA006D472E /* Debug */,
+				DFF9BE3A1C1AF4BA006D472E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFF9BE111C1AF4BA006D472E /* Treasure.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFF9BE121C1AF4BA006D472E /* Treasure.xcdatamodel */,
+			);
+			currentVersion = DFF9BE121C1AF4BA006D472E /* Treasure.xcdatamodel */;
+			path = Treasure.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFF9BDFF1C1AF4BA006D472E /* Project object */;
+}
