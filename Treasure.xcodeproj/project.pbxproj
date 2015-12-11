@@ -15,6 +15,8 @@
 		DFF9BE181C1AF4BA006D472E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF9BE161C1AF4BA006D472E /* LaunchScreen.storyboard */; };
 		DFF9BE231C1AF4BA006D472E /* TreasureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE221C1AF4BA006D472E /* TreasureTests.swift */; };
 		DFF9BE2E1C1AF4BA006D472E /* TreasureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE2D1C1AF4BA006D472E /* TreasureUITests.swift */; };
+		DFF9BE3C1C1AF68D006D472E /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF9BE3B1C1AF68D006D472E /* Background.png */; };
+		DFF9BE3F1C1AFBE1006D472E /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF9BE3E1C1AFBE1006D472E /* next.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DFF9BE291C1AF4BA006D472E /* TreasureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreasureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF9BE2D1C1AF4BA006D472E /* TreasureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureUITests.swift; sourceTree = "<group>"; };
 		DFF9BE2F1C1AF4BA006D472E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF9BE3B1C1AF68D006D472E /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		DFF9BE3E1C1AFBE1006D472E /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				DFF9BE161C1AF4BA006D472E /* LaunchScreen.storyboard */,
 				DFF9BE191C1AF4BA006D472E /* Info.plist */,
 				DFF9BE111C1AF4BA006D472E /* Treasure.xcdatamodeld */,
+				DFF9BE3D1C1AF696006D472E /* SupportingFiles */,
 			);
 			path = Treasure;
 			sourceTree = "<group>";
@@ -126,6 +131,15 @@
 				DFF9BE2F1C1AF4BA006D472E /* Info.plist */,
 			);
 			path = TreasureUITests;
+			sourceTree = "<group>";
+		};
+		DFF9BE3D1C1AF696006D472E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DFF9BE3B1C1AF68D006D472E /* Background.png */,
+				DFF9BE3E1C1AFBE1006D472E /* next.png */,
+			);
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF9BE181C1AF4BA006D472E /* LaunchScreen.storyboard in Resources */,
+				DFF9BE3F1C1AFBE1006D472E /* next.png in Resources */,
+				DFF9BE3C1C1AF68D006D472E /* Background.png in Resources */,
 				DFF9BE151C1AF4BA006D472E /* Assets.xcassets in Resources */,
 				DFF9BE101C1AF4BA006D472E /* Main.storyboard in Resources */,
 			);
