@@ -40,18 +40,30 @@
                                     <constraint firstAttribute="width" secondItem="Rm3-Fe-2ZP" secondAttribute="height" multiplier="284:21" id="T0P-dh-JoD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The purpose of this game is to discover Coventry. Follow the clues and take a selfie at each location!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVv-G9-fKk">
+                                <rect key="frame" x="142" y="357" width="317" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="317" id="o05-73-nuF"/>
+                                    <constraint firstAttribute="width" secondItem="dVv-G9-fKk" secondAttribute="height" multiplier="317:100" id="tlK-6a-AcK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="dVv-G9-fKk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JnS-bt-EIg"/>
                             <constraint firstItem="nHd-ei-RLF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LTn-hZ-4FM"/>
                             <constraint firstItem="nHd-ei-RLF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Wl8-2G-CII"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kGC-yd-o6o" secondAttribute="trailing" constant="-20" id="f1I-IR-tgg"/>
                             <constraint firstItem="kGC-yd-o6o" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="h5o-Kp-2eM"/>
                             <constraint firstItem="kGC-yd-o6o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="kbt-fo-g4u"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kGC-yd-o6o" secondAttribute="bottom" id="pha-j0-jAf"/>
+                            <constraint firstItem="dVv-G9-fKk" firstAttribute="top" secondItem="nHd-ei-RLF" secondAttribute="bottom" constant="17" id="rDn-uX-eoD"/>
                             <constraint firstItem="Rm3-Fe-2ZP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wY0-hi-SXh"/>
                             <constraint firstItem="nHd-ei-RLF" firstAttribute="top" secondItem="Rm3-Fe-2ZP" secondAttribute="bottom" constant="40" id="xjx-tC-Chw"/>
                         </constraints>
@@ -64,7 +76,7 @@
         <!--View Controller-->
         <scene sceneID="SyF-rD-DUb">
             <objects>
-                <viewController id="0RQ-gZ-rdS" sceneMemberID="viewController">
+                <viewController id="0RQ-gZ-rdS" customClass="ViewController" customModule="Treasure" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="e1u-Rh-nRA"/>
                         <viewControllerLayoutGuide type="bottom" id="uuv-vQ-vJ0"/>
@@ -76,27 +88,30 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="iDh-Fc-dWL">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLt-g4-Ktr">
-                                <rect key="frame" x="20" y="559" width="57" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clue" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWx-Nc-i06">
+                                <rect key="frame" x="110" y="139" width="380" height="321"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="odO-Xm-Pam"/>
-                                    <constraint firstAttribute="width" constant="57" id="rWC-7a-3dL"/>
+                                    <constraint firstAttribute="width" secondItem="QWx-Nc-i06" secondAttribute="height" multiplier="380:321" id="KEI-tk-P6d"/>
+                                    <constraint firstAttribute="width" constant="380" id="d4g-0f-KIs"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="iDh-Fc-dWL" firstAttribute="top" secondItem="XJX-pU-hSH" secondAttribute="topMargin" id="9YQ-sp-0tF"/>
+                            <constraint firstItem="QWx-Nc-i06" firstAttribute="centerY" secondItem="XJX-pU-hSH" secondAttribute="centerY" id="DzU-87-aAK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="iDh-Fc-dWL" secondAttribute="trailing" constant="-20" id="Eo5-1u-Gi7"/>
-                            <constraint firstItem="DLt-g4-Ktr" firstAttribute="leading" secondItem="XJX-pU-hSH" secondAttribute="leadingMargin" id="QFm-CK-pXL"/>
-                            <constraint firstItem="uuv-vQ-vJ0" firstAttribute="top" secondItem="DLt-g4-Ktr" secondAttribute="bottom" constant="20" id="cOq-xZ-Hv8"/>
                             <constraint firstItem="iDh-Fc-dWL" firstAttribute="leading" secondItem="XJX-pU-hSH" secondAttribute="leadingMargin" constant="-20" id="cnD-hM-dR4"/>
                             <constraint firstItem="uuv-vQ-vJ0" firstAttribute="top" secondItem="iDh-Fc-dWL" secondAttribute="bottom" id="k6u-gR-BJC"/>
+                            <constraint firstItem="QWx-Nc-i06" firstAttribute="centerX" secondItem="XJX-pU-hSH" secondAttribute="centerX" id="nPP-wa-kUm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Clue" destination="QWx-Nc-i06" id="46b-1L-EQ9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cfa-cF-EBM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
