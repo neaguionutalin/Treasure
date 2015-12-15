@@ -8,9 +8,11 @@
 
 import UIKit
 import CoreData
+import MapKit
+
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, MKMapViewDelegate {
 
     var window: UIWindow?
 

@@ -7,14 +7,20 @@
 //
 
 import UIKit
+import MapKit
+
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var clue: UILabel!
     
+    @IBAction func checkLocation(sender: AnyObject) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {

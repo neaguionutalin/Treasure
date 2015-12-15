@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -22,17 +22,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="kGC-yd-o6o">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHd-ei-RLF">
-                                <rect key="frame" x="260" y="260" width="80" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="nHd-ei-RLF" secondAttribute="height" multiplier="1:1" id="ag0-oI-SGE"/>
-                                    <constraint firstAttribute="width" constant="80" id="xXA-fw-t79"/>
-                                </constraints>
-                                <state key="normal" image="next.png"/>
-                                <connections>
-                                    <segue destination="0RQ-gZ-rdS" kind="modal" id="Rcg-wp-Gu6"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Treasure!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rm3-Fe-2ZP">
                                 <rect key="frame" x="158" y="199" width="284" height="21"/>
                                 <constraints>
@@ -53,19 +42,30 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdQ-Xx-sJA">
+                                <rect key="frame" x="260" y="260" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="LdQ-Xx-sJA" secondAttribute="height" multiplier="1:1" id="sMS-4E-9uX"/>
+                                    <constraint firstAttribute="height" constant="80" id="x5z-FY-CS4"/>
+                                </constraints>
+                                <state key="normal" image="next.png"/>
+                                <connections>
+                                    <segue destination="sSF-Sd-bfQ" kind="modal" id="8M6-vh-Ef1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="dVv-G9-fKk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JnS-bt-EIg"/>
-                            <constraint firstItem="nHd-ei-RLF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LTn-hZ-4FM"/>
-                            <constraint firstItem="nHd-ei-RLF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Wl8-2G-CII"/>
+                            <constraint firstItem="LdQ-Xx-sJA" firstAttribute="top" secondItem="Rm3-Fe-2ZP" secondAttribute="bottom" constant="40" id="Yjd-1E-WWi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kGC-yd-o6o" secondAttribute="trailing" constant="-20" id="f1I-IR-tgg"/>
                             <constraint firstItem="kGC-yd-o6o" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="h5o-Kp-2eM"/>
                             <constraint firstItem="kGC-yd-o6o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="kbt-fo-g4u"/>
+                            <constraint firstItem="LdQ-Xx-sJA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="l9x-Ri-ugh"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kGC-yd-o6o" secondAttribute="bottom" id="pha-j0-jAf"/>
-                            <constraint firstItem="dVv-G9-fKk" firstAttribute="top" secondItem="nHd-ei-RLF" secondAttribute="bottom" constant="17" id="rDn-uX-eoD"/>
+                            <constraint firstItem="LdQ-Xx-sJA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rwb-Br-rNY"/>
                             <constraint firstItem="Rm3-Fe-2ZP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wY0-hi-SXh"/>
-                            <constraint firstItem="nHd-ei-RLF" firstAttribute="top" secondItem="Rm3-Fe-2ZP" secondAttribute="bottom" constant="40" id="xjx-tC-Chw"/>
+                            <constraint firstItem="dVv-G9-fKk" firstAttribute="top" secondItem="LdQ-Xx-sJA" secondAttribute="bottom" constant="17" id="ygQ-N3-Huo"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -74,48 +74,58 @@
             <point key="canvasLocation" x="307" y="417"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="SyF-rD-DUb">
+        <scene sceneID="Lq3-od-L46">
             <objects>
-                <viewController id="0RQ-gZ-rdS" customClass="ViewController" customModule="Treasure" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sSF-Sd-bfQ" customClass="ViewController" customModule="Treasure" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="e1u-Rh-nRA"/>
-                        <viewControllerLayoutGuide type="bottom" id="uuv-vQ-vJ0"/>
+                        <viewControllerLayoutGuide type="top" id="vSH-am-LY5"/>
+                        <viewControllerLayoutGuide type="bottom" id="EOw-7k-N2T"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="XJX-pU-hSH">
+                    <view key="view" contentMode="scaleToFill" id="gXn-2p-CtS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="iDh-Fc-dWL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="38Q-W5-hyq">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clue" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWx-Nc-i06">
-                                <rect key="frame" x="110" y="139" width="380" height="321"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ml-L5-XD4">
+                                <rect key="frame" x="158" y="157" width="284" height="285"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="QWx-Nc-i06" secondAttribute="height" multiplier="380:321" id="KEI-tk-P6d"/>
-                                    <constraint firstAttribute="width" constant="380" id="d4g-0f-KIs"/>
+                                    <constraint firstAttribute="width" constant="284" id="toC-Tb-3v7"/>
+                                    <constraint firstAttribute="width" secondItem="2Ml-L5-XD4" secondAttribute="height" multiplier="284:285" id="zcx-3h-HSx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6X2-n0-f7T">
+                                <rect key="frame" x="237" y="450" width="127" height="30"/>
+                                <state key="normal" title="Check my location"/>
+                                <connections>
+                                    <action selector="checkLocation:" destination="sSF-Sd-bfQ" eventType="touchUpInside" id="NCm-ef-ddr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="iDh-Fc-dWL" firstAttribute="top" secondItem="XJX-pU-hSH" secondAttribute="topMargin" id="9YQ-sp-0tF"/>
-                            <constraint firstItem="QWx-Nc-i06" firstAttribute="centerY" secondItem="XJX-pU-hSH" secondAttribute="centerY" id="DzU-87-aAK"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="iDh-Fc-dWL" secondAttribute="trailing" constant="-20" id="Eo5-1u-Gi7"/>
-                            <constraint firstItem="iDh-Fc-dWL" firstAttribute="leading" secondItem="XJX-pU-hSH" secondAttribute="leadingMargin" constant="-20" id="cnD-hM-dR4"/>
-                            <constraint firstItem="uuv-vQ-vJ0" firstAttribute="top" secondItem="iDh-Fc-dWL" secondAttribute="bottom" id="k6u-gR-BJC"/>
-                            <constraint firstItem="QWx-Nc-i06" firstAttribute="centerX" secondItem="XJX-pU-hSH" secondAttribute="centerX" id="nPP-wa-kUm"/>
+                            <constraint firstItem="EOw-7k-N2T" firstAttribute="top" secondItem="38Q-W5-hyq" secondAttribute="bottom" id="51m-Ho-RD0"/>
+                            <constraint firstItem="6X2-n0-f7T" firstAttribute="top" secondItem="2Ml-L5-XD4" secondAttribute="bottom" constant="8" id="5jy-OB-FtP"/>
+                            <constraint firstItem="2Ml-L5-XD4" firstAttribute="centerY" secondItem="gXn-2p-CtS" secondAttribute="centerY" id="92y-9L-Tcn"/>
+                            <constraint firstItem="38Q-W5-hyq" firstAttribute="top" secondItem="gXn-2p-CtS" secondAttribute="topMargin" id="GqO-IM-0Fz"/>
+                            <constraint firstItem="38Q-W5-hyq" firstAttribute="leading" secondItem="gXn-2p-CtS" secondAttribute="leadingMargin" constant="-20" id="Y03-H6-qvp"/>
+                            <constraint firstItem="2Ml-L5-XD4" firstAttribute="centerX" secondItem="gXn-2p-CtS" secondAttribute="centerX" id="aqx-aE-LLz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="38Q-W5-hyq" secondAttribute="trailing" constant="-20" id="fub-vr-ZFx"/>
+                            <constraint firstItem="6X2-n0-f7T" firstAttribute="centerX" secondItem="gXn-2p-CtS" secondAttribute="centerX" id="r3y-3D-lku"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ftf-R1-Ery"/>
                     <connections>
-                        <outlet property="Clue" destination="QWx-Nc-i06" id="46b-1L-EQ9"/>
+                        <outlet property="clue" destination="2Ml-L5-XD4" id="XmU-aZ-BrV"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cfa-cF-EBM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mV0-Sa-yiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="984" y="417"/>
+            <point key="canvasLocation" x="987" y="417"/>
         </scene>
     </scenes>
     <resources>
