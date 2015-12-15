@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0FCFCB1C2084B9008DFB6B /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FCFCA1C2084B9008DFB6B /* location.swift */; };
 		DFF9BE0B1C1AF4BA006D472E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE0A1C1AF4BA006D472E /* AppDelegate.swift */; };
 		DFF9BE0D1C1AF4BA006D472E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE0C1C1AF4BA006D472E /* ViewController.swift */; };
 		DFF9BE101C1AF4BA006D472E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF9BE0E1C1AF4BA006D472E /* Main.storyboard */; };
-		DFF9BE131C1AF4BA006D472E /* Treasure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE111C1AF4BA006D472E /* Treasure.xcdatamodeld */; };
 		DFF9BE151C1AF4BA006D472E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF9BE141C1AF4BA006D472E /* Assets.xcassets */; };
 		DFF9BE181C1AF4BA006D472E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF9BE161C1AF4BA006D472E /* LaunchScreen.storyboard */; };
 		DFF9BE231C1AF4BA006D472E /* TreasureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE221C1AF4BA006D472E /* TreasureTests.swift */; };
@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF0FCFCA1C2084B9008DFB6B /* location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = location.swift; path = ../location.swift; sourceTree = "<group>"; };
 		DFF9BE071C1AF4BA006D472E /* Treasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF9BE0A1C1AF4BA006D472E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFF9BE0C1C1AF4BA006D472E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DFF9BE0F1C1AF4BA006D472E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DFF9BE121C1AF4BA006D472E /* Treasure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Treasure.xcdatamodel; sourceTree = "<group>"; };
 		DFF9BE141C1AF4BA006D472E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF9BE171C1AF4BA006D472E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFF9BE191C1AF4BA006D472E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,11 +105,11 @@
 			children = (
 				DFF9BE0A1C1AF4BA006D472E /* AppDelegate.swift */,
 				DFF9BE0C1C1AF4BA006D472E /* ViewController.swift */,
+				DF0FCFCA1C2084B9008DFB6B /* location.swift */,
 				DFF9BE0E1C1AF4BA006D472E /* Main.storyboard */,
 				DFF9BE141C1AF4BA006D472E /* Assets.xcassets */,
 				DFF9BE161C1AF4BA006D472E /* LaunchScreen.storyboard */,
 				DFF9BE191C1AF4BA006D472E /* Info.plist */,
-				DFF9BE111C1AF4BA006D472E /* Treasure.xcdatamodeld */,
 				DFF9BE3D1C1AF696006D472E /* SupportingFiles */,
 			);
 			path = Treasure;
@@ -278,7 +278,7 @@
 			files = (
 				DFF9BE0D1C1AF4BA006D472E /* ViewController.swift in Sources */,
 				DFF9BE0B1C1AF4BA006D472E /* AppDelegate.swift in Sources */,
-				DFF9BE131C1AF4BA006D472E /* Treasure.xcdatamodeld in Sources */,
+				DF0FCFCB1C2084B9008DFB6B /* location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,19 +532,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		DFF9BE111C1AF4BA006D472E /* Treasure.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				DFF9BE121C1AF4BA006D472E /* Treasure.xcdatamodel */,
-			);
-			currentVersion = DFF9BE121C1AF4BA006D472E /* Treasure.xcdatamodel */;
-			path = Treasure.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = DFF9BDFF1C1AF4BA006D472E /* Project object */;
 }

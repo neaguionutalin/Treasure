@@ -88,6 +88,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="38Q-W5-hyq">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6X2-n0-f7T">
+                                <rect key="frame" x="237" y="450" width="127" height="30"/>
+                                <state key="normal" title="Check my location"/>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ml-L5-XD4">
                                 <rect key="frame" x="158" y="157" width="284" height="285"/>
                                 <constraints>
@@ -98,13 +102,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6X2-n0-f7T">
-                                <rect key="frame" x="237" y="450" width="127" height="30"/>
-                                <state key="normal" title="Check my location"/>
-                                <connections>
-                                    <action selector="checkLocation:" destination="sSF-Sd-bfQ" eventType="touchUpInside" id="NCm-ef-ddr"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -119,9 +116,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ftf-R1-Ery"/>
-                    <connections>
-                        <outlet property="clue" destination="2Ml-L5-XD4" id="XmU-aZ-BrV"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mV0-Sa-yiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
