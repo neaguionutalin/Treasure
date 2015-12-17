@@ -33,11 +33,6 @@ class location: UIViewController, CLLocationManagerDelegate {
         txtForClue.text = "Go to the Coventry University Student Union"
     }
     
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
