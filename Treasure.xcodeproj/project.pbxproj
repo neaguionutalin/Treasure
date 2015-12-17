@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DF0FCFCB1C2084B9008DFB6B /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FCFCA1C2084B9008DFB6B /* location.swift */; };
+		DF416DD41C22F5E000375710 /* Coventry.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DF416DD31C22F5E000375710 /* Coventry.gpx */; };
+		DF416DD61C22F76700375710 /* Coventry.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DF416DD51C22F76700375710 /* Coventry.gpx */; };
 		DFF9BE0B1C1AF4BA006D472E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE0A1C1AF4BA006D472E /* AppDelegate.swift */; };
 		DFF9BE0D1C1AF4BA006D472E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF9BE0C1C1AF4BA006D472E /* ViewController.swift */; };
 		DFF9BE101C1AF4BA006D472E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF9BE0E1C1AF4BA006D472E /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		DF0FCFCA1C2084B9008DFB6B /* location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = location.swift; path = ../location.swift; sourceTree = "<group>"; };
+		DF416DD31C22F5E000375710 /* Coventry.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Coventry.gpx; sourceTree = "<group>"; };
+		DF416DD51C22F76700375710 /* Coventry.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Coventry.gpx; path = Treasure/Coventry.gpx; sourceTree = "<group>"; };
 		DFF9BE071C1AF4BA006D472E /* Treasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF9BE0A1C1AF4BA006D472E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFF9BE0C1C1AF4BA006D472E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 		DFF9BDFE1C1AF4BA006D472E = {
 			isa = PBXGroup;
 			children = (
+				DF416DD51C22F76700375710 /* Coventry.gpx */,
 				DFF9BE091C1AF4BA006D472E /* Treasure */,
 				DFF9BE211C1AF4BA006D472E /* TreasureTests */,
 				DFF9BE2C1C1AF4BA006D472E /* TreasureUITests */,
@@ -106,6 +111,7 @@
 				DFF9BE0A1C1AF4BA006D472E /* AppDelegate.swift */,
 				DFF9BE0C1C1AF4BA006D472E /* ViewController.swift */,
 				DF0FCFCA1C2084B9008DFB6B /* location.swift */,
+				DF416DD31C22F5E000375710 /* Coventry.gpx */,
 				DFF9BE0E1C1AF4BA006D472E /* Main.storyboard */,
 				DFF9BE141C1AF4BA006D472E /* Assets.xcassets */,
 				DFF9BE161C1AF4BA006D472E /* LaunchScreen.storyboard */,
@@ -248,10 +254,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF9BE181C1AF4BA006D472E /* LaunchScreen.storyboard in Resources */,
+				DF416DD41C22F5E000375710 /* Coventry.gpx in Resources */,
 				DFF9BE3F1C1AFBE1006D472E /* next.png in Resources */,
 				DFF9BE3C1C1AF68D006D472E /* Background.png in Resources */,
 				DFF9BE151C1AF4BA006D472E /* Assets.xcassets in Resources */,
 				DFF9BE101C1AF4BA006D472E /* Main.storyboard in Resources */,
+				DF416DD61C22F76700375710 /* Coventry.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
