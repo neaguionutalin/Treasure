@@ -88,23 +88,23 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="38Q-W5-hyq">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6X2-n0-f7T">
-                                <rect key="frame" x="237" y="450" width="127" height="30"/>
-                                <state key="normal" title="Check my location"/>
-                                <connections>
-                                    <action selector="checklocation" destination="sSF-Sd-bfQ" eventType="touchUpInside" id="JhW-2l-rNQ"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ml-L5-XD4">
-                                <rect key="frame" x="158" y="157" width="284" height="285"/>
+                                <rect key="frame" x="158" y="230" width="284" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="284" id="toC-Tb-3v7"/>
-                                    <constraint firstAttribute="width" secondItem="2Ml-L5-XD4" secondAttribute="height" multiplier="284:285" id="zcx-3h-HSx"/>
+                                    <constraint firstAttribute="width" secondItem="2Ml-L5-XD4" secondAttribute="height" multiplier="284:285" constant="144.49122807017545" id="zcx-3h-HSx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6X2-n0-f7T">
+                                <rect key="frame" x="237" y="378" width="127" height="30"/>
+                                <state key="normal" title="Check my location"/>
+                                <connections>
+                                    <action selector="checklocation" destination="sSF-Sd-bfQ" eventType="touchUpInside" id="JhW-2l-rNQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
